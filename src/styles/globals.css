@@ -1,0 +1,129 @@
+:root {
+  --section-spacing: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+
+body {
+  font-weight: 400 !important;
+}
+
+#__next {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-flow: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+img,
+video {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+strong,
+b {
+  font-weight: 600;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+input[type="file" i]::-webkit-file-upload-button {
+  font-family: inherit;
+}
+
+
+
+/* Utility Classes
+======================== */
+
+/* Line Overflow */
+.line-2,
+.line-3,
+.line-4,
+.line-5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.line-1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 100%;
+}
+
+.line-2 {
+  -webkit-line-clamp: 2
+}
+
+.line-3 {
+  -webkit-line-clamp: 3
+}
+
+.line-4 {
+  -webkit-line-clamp: 4
+}
+
+.line-5 {
+  -webkit-line-clamp: 5
+}
+
+
+/* Section Spacing */
+.section-spacing-mt {
+  margin-top: var(--section-spacing);
+}
+
+.section-spacing-mb {
+  margin-bottom: var(--section-spacing);
+}
+
+.section-spacing-my {
+  margin-top: var(--section-spacing);
+  margin-bottom: var(--section-spacing);
+}
+
+.section-spacing-pt {
+  padding-top: var(--section-spacing);
+}
+
+.section-spacing-pb {
+  padding-bottom: var(--section-spacing);
+}
+
+.section-spacing-py {
+  padding-top: var(--section-spacing);
+  padding-bottom: var(--section-spacing);
+}

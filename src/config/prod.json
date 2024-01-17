@@ -1,0 +1,5 @@
+{
+  "basePath": "",
+  "apiBaseUrl": "https://nextjs-blog-ssr-pi.vercel.app/api",
+  "environment": "production"
+}
