@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
-const config = require('./src/config/config.json')
 
 
 
 const nextConfig = {
   reactStrictMode: true,
-  basePath: config.basePath,
   pageExtensions: ['page.tsx', 'api.ts'],
   images: {
     remotePatterns: [

@@ -1,10 +1,9 @@
 import axios from 'axios'
-import config from '@/config/config.json'
 
 
 
 const api = axios.create({
-  baseURL: config.apiBaseUrl,
+  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL,
 })
 
 
