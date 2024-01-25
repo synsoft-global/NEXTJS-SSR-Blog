@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import { CssBaseline } from '@mui/material'
-import { ThemeProvider } from '@emotion/react'
+import { CssBaseline, ThemeProvider } from '@mui/material'
 import { Analytics } from '@vercel/analytics/react'
 
 import Layout from '@/layout/Layout.component'
